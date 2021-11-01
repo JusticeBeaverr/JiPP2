@@ -20,7 +20,7 @@ Figura::Figura(int wierzcholki)
 {
     for (int i = 0; i < wierzcholki; ++i)
     {
-        cout << "Wprowadz wspolrzedne " << i << " wiercholka:\n";
+        cout << "Wprowadz wspolrzedne " << i + 1 << " wiercholka:\n";
         cin >> x[i];
         cin >> y[i];
     }

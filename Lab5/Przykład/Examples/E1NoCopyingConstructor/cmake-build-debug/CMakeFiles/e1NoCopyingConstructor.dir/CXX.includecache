@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.h
+iostream
+-
+
+C:/Users/fixu2/OneDrive/Pulpit/Lab5/Examples/E1NoCopyingConstructor/src/Point.cpp
+Point.h
+C:/Users/fixu2/OneDrive/Pulpit/Lab5/Examples/E1NoCopyingConstructor/src/Point.h
+
+C:/Users/fixu2/OneDrive/Pulpit/Lab5/Examples/E1NoCopyingConstructor/src/main.cpp
+iostream
+-
+Point.h
+C:/Users/fixu2/OneDrive/Pulpit/Lab5/Examples/E1NoCopyingConstructor/src/Point.h
+

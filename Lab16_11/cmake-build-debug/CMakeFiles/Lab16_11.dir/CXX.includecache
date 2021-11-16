@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fixu2/OneDrive/Pulpit/Jipp/Lab16_11/include/Node.h
+
+C:/Users/fixu2/OneDrive/Pulpit/Jipp/Lab16_11/src/main.cpp
+iostream
+-
+../include/Node.h
+C:/Users/fixu2/OneDrive/Pulpit/Jipp/Lab16_11/include/Node.h
+

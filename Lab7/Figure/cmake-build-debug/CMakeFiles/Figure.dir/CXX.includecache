@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Figure.h
+iostream
+../include/iostream
+math.h
+../include/math.h
+
+C:/Users/fixu2/OneDrive/Pulpit/Figure/include/Figure.h
+iostream
+C:/Users/fixu2/OneDrive/Pulpit/Figure/include/iostream
+math.h
+C:/Users/fixu2/OneDrive/Pulpit/Figure/include/math.h
+
+C:/Users/fixu2/OneDrive/Pulpit/Figure/src/Figure.cpp
+Figure.h
+-
+
+C:/Users/fixu2/OneDrive/Pulpit/Figure/src/main.cpp
+../include/Figure.h
+C:/Users/fixu2/OneDrive/Pulpit/Figure/include/Figure.h
+
